@@ -10,7 +10,7 @@ BH1750FVI Luxometro(BH1750FVI::k_DevModeContLowRes);
 void setup() {
    Serial.begin(9600);
    sensorT.begin(0x40);
-   Luxometro.begin();
+   Luxometro.begin(0x23);
 }
 
 void loop() 
