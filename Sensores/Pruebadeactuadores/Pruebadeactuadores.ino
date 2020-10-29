@@ -104,7 +104,7 @@ void loop()
      for(int i=0; i<NUMPIXELS; i++)
      {
        pixels.setBrightness(10);
-       pixels.setPixelColor(i, pixels.Color(255, 100, 0));
+       pixels.setPixelColor(i, pixels.Color(243, 192, 19));
        pixels.show();
        delay(100);
      }
